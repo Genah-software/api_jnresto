@@ -18,21 +18,6 @@ if ($conn->connect_error) {
  // Populate ID from JSON $obj array and store into $ID variable.
  $ID = $obj['id_kategori'];
 	$sql = "SELECT * FROM kategori";
-	$sql = "SELECT * FROM kategori";
-	$sql = "SELECT * FROM kategori";
-	$sql = "SELECT * FROM kategori";
-	$sql = "SELECT * FROM kategori";
-	$sql = "SELECT * FROM kategori";
-	$sql = "SELECT * FROM kategori";
-	$sql = "SELECT * FROM kategori";
-	$sql = "SELECT * FROM kategori";
-	$sql = "SELECT * FROM kategori";
-	$sql = "SELECT * FROM kategori";
-	$sql = "SELECT * FROM kategori";
-	$sql = "SELECT * FROM kategori";
-	$sql = "SELECT * FROM kategori";
-	$sql = "SELECT * FROM kategori";
-	$sql = "SELECT * FROM kategori";
 	 
 	$result = $conn->query($sql);
  
